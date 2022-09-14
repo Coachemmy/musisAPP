@@ -15,18 +15,18 @@ function Search() {
 
     const reding = {
         true : {
-            left: '8rem',
+            left: '1rem',
         },
          false: {
-             left: '16rem'        }
+             left: '5rem'        }
     }
 
     const musician = {
         true : {
-            left: '2rem',
+            left: '0rem',
         },
          false: {
-             left: '6rem'        }
+             left: '1rem'        }
     }
 
 
@@ -55,7 +55,7 @@ function Search() {
                  animate = {`${visible}`}
                  src = {require('../img/d3.png')}
                  alt = ''  
-                 className = 'absolute top-[33rem] left-[13rem] w-[9rem]'/>
+                 className = 'absolute top-[33rem] left-[3rem] w-[9rem]'/>
 
             <motion.img 
                  variants = {musician}

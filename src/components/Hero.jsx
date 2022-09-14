@@ -15,10 +15,10 @@ function Hero() {
 
     const musicPlayer = {
         true : {
-            left: '25px',
+            left: '30px',
         },
          false: {
-             left: '235px'        }
+             left: '299px'        }
     }
 
     const rect = {
@@ -82,7 +82,7 @@ function Hero() {
                  animate = {`${visible}`}
                  src = {require('../img/p 1.png')}
                  alt = '' 
-                 className = 'absolute top-[-15rem] left-[13rem] h-[34rem]' />
+                 className = 'absolute top-[-15rem] left-[1rem] h-[34rem]' />
 
             <motion.img 
                  variants = {musicPlayer}
