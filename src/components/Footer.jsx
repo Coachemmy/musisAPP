@@ -1,5 +1,6 @@
 import React from 'react'
 import CenterMenu from './CenterMenu';
+import './Footer.css'
 
 function Footer() {
     return (

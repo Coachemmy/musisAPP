@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import DownloadAds from './DownloadAds';
 import VisibilitySensor from 'react-visibility-sensor'
 import {motion} from 'framer-motion'
+import './Hero.css'
 
 function Hero() {
     const [visible, setVisible] = useState(false)
@@ -46,7 +47,7 @@ function Hero() {
             setVisible(isVisible)}
             minTopValue= {300}
         >
-        <div className = 'wrapper bg-[#081730] flex items-center justify-between px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative z-[3]' id = 'hero-res'>
+        <div className = 'hero wrapper bg-[#081730] flex items-center justify-between px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative z-[3]' id = 'hero-res'>
             {/*left side*/}
             <div className = 'headings flex flex-col items-start justify-center h-[100%] text-[3rem]'>
                 <span> 
@@ -55,10 +56,10 @@ function Hero() {
                 <span> 
                     <b>Reignited Music</b>
                 </span>
-                <span className = 'text-[15px] text-[#525D6E]'> 
+                <span className = 'anyh text-[15px] text-[#525D6E]'> 
                  Amazing grace, how sweet the song, you save a wreck like me  
                  <br/>
-                 I was once lost but now i am found
+                 I was once lost but now i...
                 </span>
                 {/* download ads*/}
                 <div>
@@ -67,7 +68,7 @@ function Hero() {
                 </div>
             </div>
             {/*right side*/}
-            <div className = 'images relative w-[50%]'> 
+            <div className = 'hero-img images relative w-[50%]'> 
             <motion.img 
                  variants = {bg}
                  transition = {{duration:1, type: 'ease-out'}}

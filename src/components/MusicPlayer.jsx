@@ -2,7 +2,7 @@ import React from 'react'
 
 function MusicPlayer() {
     return (
-        <div className = 'musicplayer flex border-black bg-[#232A4E]  rounded-xl mt-5 border-2 flex-col  px-5 w-[100%] py-3'>
+        <div className = 'musicplayer flex border-black bg-[#232A4E]  rounded-xl mt-5 border-2 flex-col  px-8 w-[100%] py-3'>
          {/*upper part*/}
             <div className = 'upperPart flex items-center justify-between'>
 
@@ -34,12 +34,12 @@ function MusicPlayer() {
               <div className = 'lowerPart flex items-center justify-between mt-5'>
               <div className = 'track flex items-center justify-between text-sm text-gray-500 flex-[2]'>
 
-                <span> 2: 30 </span>
+              
                   <img  src = {require('../img/Group 9.png')} alt = ''  
                   className = ' w-[16rem] '  
                   />  
 
-                   <span> 4: 30 </span>
+                   
               
               </div>
               

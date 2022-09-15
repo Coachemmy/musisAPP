@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import MusicPlayer from './MusicPlayer';
 import VisibilitySensor from 'react-visibility-sensor'
 import {motion} from 'framer-motion'
+import './Search.css'
 
 function Search() {
     const [visible, setVisible] = useState(false)
@@ -67,10 +68,11 @@ function Search() {
             </div>
 
 
-            <div className = 'right relative flex items-start justify-start flex-1 right-[3rem] flex-col  pt-[9rem] mt-[16rem]'>
+            <div className = 'right relative flex items-start justify-start flex-1 right-[-1rem] flex-col  pt-[9rem] mt-[16rem]'>
                
 
                   {/*search*/}
+                    
                      <div className = 'searchbar flex justify-start w-[100%]'>  
                         <input 
                         type = 'text'

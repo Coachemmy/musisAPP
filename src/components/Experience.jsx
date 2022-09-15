@@ -1,10 +1,11 @@
 import React from 'react'
 import Feature from './Feature';
+import './Experience.css'
 
 function Experience() {
 
     return (
-        <div className = 'flex flex-col items-center justify-around px-[5rem]  mt-[-10rem] h-[60rem] bg-[#020917] pt-[18rem] relative z-[2] rounded-b-[5rem]'>
+        <div className = 'Experience flex flex-col items-center justify-around px-[5rem]  mt-[-10rem] h-[60rem] bg-[#020917] pt-[18rem] relative z-[2] rounded-b-[5rem]'>
             <img src = {require('../img/Path 318.png')}
                  alt = '' 
                  className = 'w-[5rem]'  />

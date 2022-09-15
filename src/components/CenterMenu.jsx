@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function CenterMenu() {
     const liStyle = 'mr-[2rem] hover:cursor-pointer'
     return (
